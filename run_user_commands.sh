@@ -20,12 +20,13 @@ mkdir lib
 mkdir cache
 mkdir log
 mkdir source_images
-mkdir www
 mkdir tmp
 mkdir loris/tmp
 touch loris/tmp/restart.txt
 
+#copy over files from loris repo
 cp loris_repo/loris/* loris/
+cp -r loris_repo/www .
 cp loris_repo/bin/Linux/x86_64/kdu_expand bin/
 cp loris_repo/lib/Linux/x86_64/libkdu_v74R.so lib/
 
