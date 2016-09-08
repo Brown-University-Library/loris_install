@@ -7,7 +7,7 @@ mkdir $LORIS_DIR/etc
 mkdir $LORIS_DIR/loris
 cp loris2.conf $LORIS_DIR/etc
 cp launcher.py $LORIS_DIR/loris
-cp wsgi.py $LORIS_DIR/loris
+cp passenger_wsgi.py $LORIS_DIR/loris
 
 pushd $LORIS_DIR
 
