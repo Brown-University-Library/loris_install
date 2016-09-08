@@ -7,6 +7,7 @@ mkdir $LORIS_DIR/etc
 mkdir $LORIS_DIR/loris
 cp loris2.conf $LORIS_DIR/etc
 cp launcher.py $LORIS_DIR/loris
+cp wsgi.py $LORIS_DIR/loris
 
 pushd $LORIS_DIR
 
@@ -21,6 +22,8 @@ mkdir log
 mkdir source_images
 mkdir www
 mkdir tmp
+mkdir loris/tmp
+touch loris/tmp/restart.txt
 
 cp loris_repo/loris/* loris/
 cp loris_repo/bin/Linux/x86_64/kdu_expand bin/
