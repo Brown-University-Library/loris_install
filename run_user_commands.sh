@@ -11,7 +11,6 @@ pushd $LORIS_DIR
 git clone https://github.com/loris-imageserver/loris.git loris_repo
 
 #setup other loris directories
-mkdir app_code
 mkdir etc
 mkdir bin
 mkdir lib
@@ -21,7 +20,7 @@ mkdir source_images
 mkdir www
 mkdir tmp
 
-cp loris_repo/loris/* app_code/
+cp -r loris_repo/loris .
 
 #setup virtualenv
 virtualenv env
