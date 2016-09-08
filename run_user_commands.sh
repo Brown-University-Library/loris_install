@@ -35,7 +35,7 @@ virtualenv env
 source ./env/bin/activate
 pip install --upgrade pip
 pip install Werkzeug
-pip install Pillow
+pip install Pillow --global-option="build_ext" --global-option="--enable-lcms"
 pip install configobj
 pip install requests
 pip list

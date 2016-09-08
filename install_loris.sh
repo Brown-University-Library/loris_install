@@ -2,7 +2,7 @@
 
 LORIS_DIR="/opt/local/loris"
 
-yum install -y git python-virtualenv python-devel libjpeg-turbo libjpeg-turbo-devel freetype freetype-devel zlib-devel libtiff libtiff-devel
+yum install -y git python-virtualenv python-devel libjpeg-turbo libjpeg-turbo-devel freetype freetype-devel zlib-devel libtiff libtiff-devel lcms2-devel libwebp-devel
  
 mkdir -p $LORIS_DIR
 useradd -d $LORIS_DIR loris
