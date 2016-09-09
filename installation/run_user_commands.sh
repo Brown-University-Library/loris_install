@@ -40,4 +40,6 @@ pip install configobj
 pip install requests
 pip list
 
+chown -R loris *
+
 popd

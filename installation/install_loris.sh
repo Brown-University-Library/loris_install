@@ -8,7 +8,7 @@ mkdir -p $LORIS_DIR
 useradd -d $LORIS_DIR loris
 chown -R loris $LORIS_DIR
 
-su -c "sh run_user_commands.sh" loris
+#su -c "sh run_user_commands.sh" loris
 
-echo "$LORIS_DIR/lib" >> /etc/ld.so.conf.d/loris-imageserver.conf
-ldconfig
+#echo "$LORIS_DIR/lib" >> /etc/ld.so.conf.d/loris-imageserver.conf
+#ldconfig
