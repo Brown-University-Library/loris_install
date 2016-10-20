@@ -16,5 +16,5 @@ if __name__ == '__main__':
 
     app = create_app(debug=False, config_file_path=conf_fp)
 
-    run_simple('localhost', 5004, app, use_debugger=True, use_reloader=True,
+    run_simple('localhost', 3000, app, use_debugger=True, use_reloader=True,
         extra_files=extra_files)
