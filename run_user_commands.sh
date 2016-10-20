@@ -14,7 +14,6 @@ pushd $LORIS_DIR
 git clone https://github.com/loris-imageserver/loris.git loris_repo
 
 #setup other loris directories
-mkdir etc
 mkdir bin
 mkdir lib
 mkdir cache
@@ -27,6 +26,7 @@ touch loris/tmp/restart.txt
 #copy over files from loris repo
 cp loris_repo/loris/* loris/
 cp -r loris_repo/www .
+cp -r loris_repo/tests/img/01 source_images
 cp loris_repo/bin/Linux/x86_64/kdu_expand bin/
 cp loris_repo/lib/Linux/x86_64/libkdu_v74R.so lib/
 
