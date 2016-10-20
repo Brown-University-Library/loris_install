@@ -1,1 +1,1 @@
-Scripts for installing Loris on RHEL 7.
+Scripts for installing [Loris](https://github.com/loris-imageserver/loris) on RHEL 7.
